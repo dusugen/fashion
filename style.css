@@ -124,7 +124,7 @@ a {
   margin-bottom: 50px;
   max-width: 279px;
   height: 242px;
-  background-image: url("/images/welcome__shirts.png");
+  background-image: url("images/welcome__shirts.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1105,7 +1105,7 @@ a {
     top: calc(50% - 8px);
     width: 8px;
     height: 16px;
-    background-image: url("/images/advantages__arrowNext.svg");
+    background-image: url("images/advantages__arrowNext.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
