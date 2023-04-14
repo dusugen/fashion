@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/style.css" rel="stylesheet" />
+    <title>Fashion</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+          <div class="tools">
+            <div class="tools__search">
+              <img
+                src="/images/tools__search.png"
+                alt="search"
+                class="search__logo"
+              />
+              <input type="text" placeholder="Поиск" class="search__input" />
+
+              <img
+                src="/images/tools__person.svg"
+                alt="person"
+                class="tools__img"
+              />
+              <img
+                src="/images/tools__favorite.svg"
+                alt="favorite"
+                class="tools__img"
+              />
+              <img src="/images/tools__bag.svg" alt="cart" class="tools__img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome__wrapper">
+            <div class="welcome__left">
+              <div class="welcome__left-img"></div>
+              <div class="welcome__title">
+                <h2 class="title__text">
+                  Добро пожаловать в
+                  <span class="title__text--brand">Cocteil</span>
+                </h2>
+              </div>
+            </div>
+            <div class="welcome__rigth">
+              <img src="/images/welcome__jeans.png" alt="jeans" />
+            </div>
+          </div>
+          <p class="catalog__description">Экономим Ваше время!</p>
+          <p class="catalog__description">Предлагаем лучшие цены!</p>
+          <p class="catalog__description">Доставляем в кратчайшие сроки!</p>
+
+          <div class="catalog__circle-wrapper">
+            <a href="#">
+              <a class="catalog__circle">
+                <div class="circle__title">Каталог</div>
+                <svg
+                  class="circle__arrow--desktop"
+                  width="81"
+                  height="8"
+                  viewBox="0 0 81 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M79.9035 4.35355C80.0988 4.15829 80.0988 3.84171 79.9035 3.64645L76.7215 0.464466C76.5263 0.269204 76.2097 0.269204 76.0144 0.464466C75.8191 0.659728 75.8191 0.976311 76.0144 1.17157L78.8428 4L76.0144 6.82843C75.8191 7.02369 75.8191 7.34027 76.0144 7.53553C76.2097 7.7308 76.5263 7.7308 76.7215 7.53553L79.9035 4.35355ZM0.482422 4.5H79.5499V3.5H0.482422V4.5Z"
+                    fill="#514A7E"
+                  />
+                </svg>
+                <svg
+                  class="circle__arrow--mobile"
+                  width="51"
+                  height="8"
+                  viewBox="0 0 51 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M50.8212 4.35356C51.0164 4.1583 51.0164 3.84171 50.8212 3.64645L47.6392 0.46447C47.4439 0.269208 47.1273 0.269208 46.9321 0.46447C46.7368 0.659732 46.7368 0.976315 46.9321 1.17158L49.7605 4L46.9321 6.82843C46.7368 7.02369 46.7368 7.34028 46.9321 7.53554C47.1273 7.7308 47.4439 7.7308 47.6392 7.53554L50.8212 4.35356ZM0.00585933 4.5L50.4676 4.5L50.4676 3.5L0.00585942 3.5L0.00585933 4.5Z"
+                    fill="#FFFDF5"
+                  />
+                </svg>
+              </a>
+            </a>
+          </div>
+        </div>
+
+        <img
+          src="/images/welcome__shirts-mobile.png"
+          alt=""
+          class="welcome__bg-mobile"
+        />
+      </section>
+      <section class="advantages">
+        <div class="container container__advantages">
+          <h2 class="advantages__header section__header">
+            Почему выбирают нас?
+          </h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <p class="advantages__item-text circle1">
+                Скидки постоянным клиентам от 5%
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__item-text">
+                Предлагаем самые выгодные цены
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__item-text circle2">
+                Наши покупатели всегда остаются довольны
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__item-text">
+                Ширикий ассортимент товаров для всей семьи
+              </p>
+            </li>
+          </ul>
+          <ul class="advantages__list advantages__row2">
+            <li class="advantages__item">
+              <p class="advantages__item-text circle3">
+                Возможность доставки в любой город Беларуси
+              </p>
+            </li>
+            <li class="advantages__item">
+              <p class="advantages__item-text circle4">
+                Пункты выдачи заказов рядом с домом
+              </p>
+            </li>
+          </ul>
+          <a href="#">
+            <img
+              src="/images/arrowUp.png"
+              alt="Arrow Up"
+              class="advantages__arrowUp"
+            />
+          </a>
+          <a class="advantages__message">
+            <img
+              src="/images/message.png"
+              alt="sendMessage"
+              class="advantages__message-icon"
+            />
+          </a>
+        </div>
+        <img
+          src="/images/advantages__circleBG.svg"
+          alt=""
+          class="advantages__circleBg"
+        />
+      </section>
+      <section class="sales">
+        <div class="container container__sales">
+          <h2 class="sales__header section__header">Успей купить!</h2>
+          <ul class="sales__list">
+            <li class="sales__item">
+              <img src="/images/card__img1.png" alt="photo" class="card__img" />
+              <div>
+                <div class="card__price">
+                  <div class="card__new-price">50.00 р</div>
+                  <div class="card__old-price"><s>65.00 р</s></div>
+                </div>
+                <div class="card__descr-wrapper">
+                  <p class="card__descr">Блузка женская классная</p>
+                  <div class="card__icons">
+                    <img
+                      src="/images/card__favorite.svg"
+                      alt=""
+                      class="icon__favorite"
+                    />
+                    <img src="/images/card__bag.svg" alt="" class="icon__bag" />
+                  </div>
+                </div>
+                <div class="card__footer">
+                  <button class="card__button">
+                    Подробнее
+                    <svg
+                      class="card__arrow"
+                      width="26"
+                      height="4"
+                      viewBox="0 0 26 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.1768 2.17678C25.2744 2.07915 25.2744 1.92085 25.1768 1.82322L23.5858 0.232233C23.4882 0.134602 23.3299 0.134602 23.2322 0.232233C23.1346 0.329864 23.1346 0.488155 23.2322 0.585786L24.6464 2L23.2322 3.41421C23.1346 3.51184 23.1346 3.67014 23.2322 3.76777C23.3299 3.8654 23.4882 3.8654 23.5858 3.76777L25.1768 2.17678ZM0 2.25H25V1.75H0V2.25Z"
+                        fill="#121212"
+                      />
+                    </svg>
+                  </button>
+                  <img src="/images/card__rating.svg" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="sales__item">
+              <img src="/images/card__img2.png" alt="" class="card__img" />
+              <div>
+                <div class="card__price">
+                  <div class="card__new-price">50.00 р</div>
+                  <div class="card__old-price"><s>65.00 р</s></div>
+                </div>
+                <div class="card__descr-wrapper">
+                  <p class="card__descr">Блузка женская классная</p>
+                  <div class="card__icons">
+                    <img
+                      src="/images/card__favorite.svg"
+                      alt=""
+                      class="icon__favorite"
+                    />
+                    <img src="/images/card__bag.svg" alt="" class="icon__bag" />
+                  </div>
+                </div>
+                <div class="card__footer">
+                  <button class="card__button">
+                    Подробнее
+                    <svg
+                      class="card__arrow"
+                      width="26"
+                      height="4"
+                      viewBox="0 0 26 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.1768 2.17678C25.2744 2.07915 25.2744 1.92085 25.1768 1.82322L23.5858 0.232233C23.4882 0.134602 23.3299 0.134602 23.2322 0.232233C23.1346 0.329864 23.1346 0.488155 23.2322 0.585786L24.6464 2L23.2322 3.41421C23.1346 3.51184 23.1346 3.67014 23.2322 3.76777C23.3299 3.8654 23.4882 3.8654 23.5858 3.76777L25.1768 2.17678ZM0 2.25H25V1.75H0V2.25Z"
+                        fill="#121212"
+                      />
+                    </svg>
+                  </button>
+                  <img src="/images/card__rating.svg" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="sales__item">
+              <img src="/images/card__img3.png" alt="" class="card__img" />
+              <div>
+                <div class="card__price">
+                  <div class="card__new-price">50.00 р</div>
+                  <div class="card__old-price"><s>65.00 р</s></div>
+                </div>
+                <div class="card__descr-wrapper">
+                  <p class="card__descr">Блузка женская классная</p>
+                  <div class="card__icons">
+                    <img
+                      src="/images/card__favorite.svg"
+                      alt=""
+                      class="icon__favorite"
+                    />
+                    <img src="/images/card__bag.svg" alt="" class="icon__bag" />
+                  </div>
+                </div>
+                <div class="card__footer">
+                  <button class="card__button">
+                    Подробнее
+                    <svg
+                      class="card__arrow"
+                      width="26"
+                      height="4"
+                      viewBox="0 0 26 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.1768 2.17678C25.2744 2.07915 25.2744 1.92085 25.1768 1.82322L23.5858 0.232233C23.4882 0.134602 23.3299 0.134602 23.2322 0.232233C23.1346 0.329864 23.1346 0.488155 23.2322 0.585786L24.6464 2L23.2322 3.41421C23.1346 3.51184 23.1346 3.67014 23.2322 3.76777C23.3299 3.8654 23.4882 3.8654 23.5858 3.76777L25.1768 2.17678ZM0 2.25H25V1.75H0V2.25Z"
+                        fill="#121212"
+                      />
+                    </svg>
+                  </button>
+                  <img src="/images/card__rating.svg" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="sales__item sales__item--last">
+              <div>
+                <img src="/images/card__img1.png" alt="" class="card__img" />
+                <div class="card-arrowNext">
+                  <img src="/images/card__arrow.svg" alt="" />
+                </div>
+              </div>
+              <div>
+                <div class="card__price">
+                  <div class="card__new-price">50.00 р</div>
+                  <div class="card__old-price"><s>65.00 р</s></div>
+                </div>
+                <div class="card__descr-wrapper">
+                  <p class="card__descr">Блузка женская классная</p>
+                  <div class="card__icons">
+                    <img
+                      src="/images/card__favorite.svg"
+                      alt=""
+                      class="icon__favorite"
+                    />
+                    <img src="/images/card__bag.svg" alt="" class="icon__bag" />
+                  </div>
+                </div>
+                <div class="card__footer">
+                  <button class="card__button">
+                    Подробнее
+                    <svg
+                      class="card__arrow"
+                      width="26"
+                      height="4"
+                      viewBox="0 0 26 4"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.1768 2.17678C25.2744 2.07915 25.2744 1.92085 25.1768 1.82322L23.5858 0.232233C23.4882 0.134602 23.3299 0.134602 23.2322 0.232233C23.1346 0.329864 23.1346 0.488155 23.2322 0.585786L24.6464 2L23.2322 3.41421C23.1346 3.51184 23.1346 3.67014 23.2322 3.76777C23.3299 3.8654 23.4882 3.8654 23.5858 3.76777L25.1768 2.17678ZM0 2.25H25V1.75H0V2.25Z"
+                        fill="#121212"
+                      />
+                    </svg>
+                  </button>
+                  <img src="/images/card__rating.svg" alt="" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="sales__look-more">
+            Смотреть еще <img src="/images/form__submit-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="sales__arrow-mobile">
+          <img src="/images/sales__arrow-mobile.svg" alt="" />
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h3 class="reviews__header section__header">
+            Отзывы наших покупателей
+          </h3>
+          <ul class="reviews__list">
+            <li class="reviews__card">
+              <img
+                src="/images/reviews__photo1.png"
+                alt="Profile Photo"
+                class="reviews__card-img"
+              />
+              <div class="reviews__card-description">
+                <img
+                  src="/images/reviews__rating.svg"
+                  alt="rating"
+                  class="reviews__card-rating"
+                />
+                <p class="reviews__card-text">
+                  Платье село отлично! Хороший материал. Буду заказывать еще,
+                  осталась очень довольна.
+                </p>
+                <div class="reviews__card-person">
+                  <p>Анна Котлова</p>
+                  <p>23.05.2021</p>
+                </div>
+              </div>
+            </li>
+            <li class="reviews__card">
+              <img
+                src="/images/reviews__photo2.png"
+                alt="Profile Photo"
+                class="reviews__card-img"
+              />
+              <div class="reviews__card-description">
+                <img
+                  src="/images/reviews__rating.svg"
+                  alt="rating"
+                  class="reviews__card-rating"
+                />
+                <p class="reviews__card-text">
+                  Заказываю постоянно одежду в этом магазине! Хорошие цены,
+                  хорошее качество! Приятные менеджеры! Все быстро, доступно,
+                  удобно! Спасибо.
+                </p>
+
+                <div class="reviews__card-person">
+                  <p>Анна Котлова</p>
+                  <p>23.05.2021</p>
+                </div>
+              </div>
+            </li>
+            <li class="review__next">
+              <a href="#" class="review__arrow">
+                <img
+                  src="/images/reviews__nextArrow.svg"
+                  alt="next"
+                  class="review__arrow-icon"
+                />
+              </a>
+            </li>
+          </ul>
+          <a class="reviews__add">Добавить отзыв</a>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <h2 class="faq__header section__header">
+            Часто задаваемые вопросы<span>FAQ</span>
+          </h2>
+          <div class="faq__accordion">
+            <div class="accordion__item">
+              <h3 class="accordion__title">Как сделать заказ</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">Способы оплаты</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">Доставка</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">Сроки доставки</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">Как сделать обмен?</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">Как сделать возврат?</h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+            <div class="accordion__item">
+              <h3 class="accordion__title">
+                Куда и когда вернутся деньги за возвращённый товар?
+              </h3>
+              <img
+                src="/images/accordion__plus.svg"
+                alt="+"
+                class="accordion__img-plus"
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          src="/images/advantages__circleBG.svg"
+          alt=""
+          class="faq__cricleBg"
+        />
+      </section>
+      <section class="cooperation">
+        <div class="container">
+          <h2 class="cooperation__header section__header">
+            Сотрудничество с нами
+          </h2>
+          <p class="cooperation__descr">
+            Наша компания постоянно растёт и расширяет рынок, поэтому мы
+            заинтересованы в новых партнёрах и рассматриваем новые проекты,
+            которые могут быть привлекательны и интересны с коммерческой точки
+            зрения.
+          </p>
+          <ul class="cooperation__list-offer">
+            <li class="offer__item">
+              <h3 class="offer__title">
+                Становись<br />
+                партнером
+              </h3>
+              <p class="offer__text">
+                Регистрируйтесь<br />
+                и переходите в свой кабинет
+              </p>
+            </li>
+            <li class="offer__item">
+              <h3 class="offer__title">Рекламируйте <br />товары</h3>
+              <p class="offer__text">
+                Рекламируйте наши товары <br />
+                на форумах, сайтах, в социальных сетях
+              </p>
+            </li>
+            <li class="offer__item">
+              <h3 class="offer__title">Приводите <br />покупателей</h3>
+              <p class="offer__text">
+                Приводите покупателей на <br />
+                наш сайт по уникальной ссылке
+              </p>
+            </li>
+            <li class="offer__item">
+              <h3 class="offer__title">Получайте <br />бонусы</h3>
+              <p class="offer__text">
+                Копите бонусы от каждого <br />оплаченного заказа
+              </p>
+            </li>
+          </ul>
+          <h3 class="cooperation__subtitle">
+            <span class="cooperation__subtitle--first">Это выгодно.</span
+            ><span>Какие преимущества?</span>
+          </h3>
+          <ul class="cooperation__list-benefits">
+            <li class="benefits__item">
+              <img
+                src="/images/cooperation__benefits-auto.svg"
+                alt="auto"
+                class="benefits__icon"
+              />
+              <h6 class="benefits__title">Автоматизация процессов</h6>
+            </li>
+            <li class="benefits__item">
+              <img
+                src="/images/cooperation__benefits-stock.svg"
+                alt="stock"
+                class="benefits__icon"
+              />
+              <h6 class="benefits__title">Пополнение ассортимента</h6>
+            </li>
+            <li class="benefits__item">
+              <img
+                src="/images/cooperation__benefits-support.svg"
+                alt="support"
+                class="benefits__icon"
+              />
+              <h6 class="benefits__title">Поддержка и обучение</h6>
+            </li>
+            <li class="benefits__item">
+              <img
+                src="/images/cooperation__benefits-bonus.svg"
+                alt="bonus"
+                class="benefits__icon"
+              />
+              <h6 class="benefits__title">Бонусы за новых клиентов</h6>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback__form-wrapper">
+          <div class="feedback-container">
+            <form class="feedback__form">
+              <p class="form__header">
+                Приглашаем к сотрудничеству производителей и поставщиков одежды,
+                обуви и аксессуаров
+              </p>
+              <input
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+                class="form__input"
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Номер телефона"
+                class="form__input"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Электронная почта"
+                class="form__input"
+              />
+              <div class="form__checkbox-wrapper">
+                <input
+                  type="radio"
+                  name="check"
+                  id="checkboxAgree"
+                  class="form__checkbox"
+                />
+                <label for="checkboxAgree" class="form__checkbox-label"
+                  >Даю согласие на обработку персональных данныхы</label
+                >
+              </div>
+              <button type="submit" class="form__button">
+                <h5>Отправить</h5>
+                <img src="/images/form__submit-arrow.svg" class="form__icon" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <img
+          src="/images/feedback__semicircle.svg"
+          alt=""
+          class="feedback__semicircle-bg"
+        />
+        <img
+          src="/images/advantages__circleBG.svg"
+          alt=""
+          class="feedback__circle-bg"
+        />
+      </section>
+    </main>
+    <footer class="footer footer--desktop">
+      <div class="container footer__container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <div class="footer__item-title">Информация</div>
+            <div class="footer__info">
+              <a href="#" class="info__text">Главная</a>
+              <a href="#" class="info__text">Акции</a>
+              <a href="#" class="info__text">Каталог</a>
+              <a href="#" class="info__text">Возврат</a>
+              <a href="#" class="info__text">Доставка</a>
+              <a href="#" class="info__text">Партнерам</a>
+              <a href="#" class="info__text">Способы оплаты</a>
+              <a href="#" class="info__text">Как сделать заказ?</a>
+            </div>
+          </li>
+          <li class="footer__item">
+            <div class="footer__item-title">Мой кабинет</div>
+            <div class="footer__info">
+              <a href="#" class="info__text">Мои заказы</a>
+              <a href="#" class="info__text">Мои адреса</a>
+              <a href="#" class="info__text">Мои скидки</a>
+              <a href="#" class="info__text">Моя информация</a>
+            </div>
+          </li>
+          <li class="footer__item">
+            <div class="footer__item-title">Контактная информация</div>
+            <p class="footer__contact-text">
+              ИП Вишневский Иван Сергеевич государственная регистрация
+              №690867884 от 31.07.2020. Логойским горисполкомом Защита прав
+              потребителей <a href="tel:+375259990755">+375259990755</a>
+            </p>
+          </li>
+          <li class="footer__item">
+            <div class="footer__item-title">Соц .сети</div>
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#">
+                  <img
+                    src="/images/social__telegram.svg"
+                    alt=""
+                    class="social__icon"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img
+                    src="/images/social__inst.svg"
+                    alt=""
+                    class="social__icon"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img
+                    src="/images/social__email.svg"
+                    alt=""
+                    class="social__icon"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img
+                    src="/images/social__phone.svg"
+                    alt=""
+                    class="social__icon"
+                  />
+                </a>
+              </li>
+            </ul>
+            <div class="footer__social-phone">
+              <img
+                src="/images/footer__phone.svg"
+                alt="clock"
+                class="footer__social-img"
+              />
+              +375255990755
+            </div>
+            <div class="footer__social-clock">
+              <img
+                src="/images/footer__clock.svg"
+                alt=""
+                class="footer__social-img"
+              />
+              <p>круглосуточно, без выходных</p>
+            </div>
+          </li>
+        </ul>
+        <img src="/images/footer__logo.png" alt="Logo" class="footer__logo" />
+      </div>
+    </footer>
+    <footer class="footer footer--mobile">
+      <div class="container">
+        <img src="/images/footer__logo.png" alt="" class="footer__logo" />
+        <div class="footer__content">
+          <ul class="footer__information-list">
+            <li class="footer__information-item">
+              Информация <img src="/images/footer__more.svg" alt="" />
+            </li>
+            <li class="footer__information-item">
+              Мой кабинет <img src="/images/footer__more.svg" alt="" />
+            </li>
+            <li class="footer__information-item">
+              Сотрудничество<img src="/images/footer__more.svg" alt="" />
+            </li>
+            <li class="footer__information-item">
+              Контакты<img src="/images/footer__more.svg" alt="" />
+            </li>
+          </ul>
+          <div class="footer__information-links">
+            <p class="information__text">Мы в соц. сетях</p>
+            <div class="information-links__social">
+              <a href="#" class="links__icon">
+                <img src="/images/social__email.svg" alt="" />
+              </a>
+              <a href="#" class="links__icon">
+                <img src="/images/social__phone.svg" alt="" />
+              </a>
+              <a href="#" class="links__icon">
+                <img src="/images/social__telegram.svg" alt="" />
+              </a>
+              <a href="#" class="links__icon">
+                <img src="/images/social__inst.svg" alt="" />
+              </a>
+            </div>
+            <a href="tel:+375255990755" name="phone">+3(752)559-907-55</a>
+            <p class="links__worktime">круглосуточно, без выходных</p>
+          </div>
+          <div class="footer__arrow--mobile">
+            <img src="/images/footer__arrowUp.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-mobile">
+      <div class="footer-mobile__section">
+        <ul class="section__list">
+          <li class="section__item">Женщинам</li>
+          <li class="section__item">Мужчинам</li>
+          <li class="section__item">Детям</li>
+        </ul>
+      </div>
+      <div class="footer-mobile__nav">
+        <img
+          src="/images/footer-mobile__home.svg"
+          alt=""
+          class="footer-mobile__img"
+        />
+        <img
+          src="/images/footer-mobile__favorite.svg"
+          alt=""
+          class="footer-mobile__img"
+        />
+        <img
+          src="/images/footer-mobile__favorite.svg"
+          alt=""
+          class="footer-mobile__img"
+        />
+        <img
+          src="/images/footer-mobile__bag.svg"
+          alt=""
+          class="footer-mobile__img"
+        />
+        <img
+          src="/images/footer-mobile__menu.svg"
+          alt=""
+          class="footer-mobile__img"
+        />
+      </div>
+    </div>
+  </body>
+</html>
